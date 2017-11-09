@@ -58,6 +58,7 @@
 		D2DEFCC51FA0312100B9D327 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2DEFCD91FA031F400B9D327 /* WZSPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZSPlayer.h; sourceTree = "<group>"; };
 		D2DEFCDA1FA031F400B9D327 /* WZSPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZSPlayer.m; sourceTree = "<group>"; };
+		D2DEFCDD1FA0374200B9D327 /* CommonHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +133,7 @@
 				D2DEFCA21FA0312000B9D327 /* AppDelegate.m */,
 				D2DEFCA41FA0312000B9D327 /* ViewController.h */,
 				D2DEFCA51FA0312000B9D327 /* ViewController.m */,
+				D2DEFCDD1FA0374200B9D327 /* CommonHeader.pch */,
 				D2DEFCD81FA031E500B9D327 /* AVPlayer */,
 				D2DEFCA71FA0312000B9D327 /* Main.storyboard */,
 				D2DEFCAA1FA0312000B9D327 /* Assets.xcassets */,
@@ -517,6 +519,8 @@
 			baseConfigurationReference = BAE2D696B326C218512F7302 /* Pods-AVPlayerDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/wangzhansheng/AVPlayerDemo/AVPlayerDemo/AVPlayerDemo/CommonHeader.pch;
 				INFOPLIST_FILE = AVPlayerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.smartdot.AVPlayerDemo;
@@ -529,6 +533,8 @@
 			baseConfigurationReference = D1888A9DE6EC743B95F18FCB /* Pods-AVPlayerDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/wangzhansheng/AVPlayerDemo/AVPlayerDemo/AVPlayerDemo/CommonHeader.pch;
 				INFOPLIST_FILE = AVPlayerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.smartdot.AVPlayerDemo;
@@ -601,6 +607,7 @@
 				D2DEFCCA1FA0312100B9D327 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2DEFCCB1FA0312100B9D327 /* Build configuration list for PBXNativeTarget "AVPlayerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -609,6 +616,7 @@
 				D2DEFCCD1FA0312100B9D327 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2DEFCCE1FA0312100B9D327 /* Build configuration list for PBXNativeTarget "AVPlayerDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -617,6 +625,7 @@
 				D2DEFCD01FA0312100B9D327 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

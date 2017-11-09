@@ -1,0 +1,16 @@
+//
+//  CommonHeader.pch
+//  AVPlayerDemo
+//
+//  Created by 王战胜 on 2017/10/25.
+//  Copyright © 2017年 gocomtech. All rights reserved.
+//
+
+#ifndef CommonHeader_pch
+#define CommonHeader_pch
+
+#import <Masonry.h>
+#define kScreenWidth ([UIScreen mainScreen].bounds.size.width)
+#define kScreenHeight ([UIScreen mainScreen].bounds.size.height)
+
+#endif /* CommonHeader_pch */
